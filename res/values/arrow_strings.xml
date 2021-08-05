@@ -17,7 +17,10 @@
 
     <!-- Arrow Customize -->
     <string name="customize_dashboard_title">Welcome to Arrow Lab!</string>
-
+    
+    <!-- Category: Statusbar -->
     <string name="category_statusbar_title">Statusbar</string>
 
+    <!-- Category: QuickSettings-->
+    <string name="category_quicksettings_title">Quick Settings</string>
 </resources> 
