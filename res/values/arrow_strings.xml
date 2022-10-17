@@ -79,4 +79,9 @@
     <string name="battery_estimate_title">Battery estimate</string>
     <string name="battery_estimate_summary">Display estimated remaining battery life when available</string>
 
+    <!-- Less boring heads up -->
+    <string name="less_boring_headsup_category_title">Less Boring Headsup</string>
+    <string name="less_boring_heads_up_title">Make heads up less annoying</string>
+    <string name="less_boring_heads_up_summary">Show heads up only for dialer or messaging app if they are not in foreground</string>
+    
 </resources> 
