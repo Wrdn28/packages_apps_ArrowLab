@@ -32,14 +32,6 @@
           android:fragment="com.arrow.arrowlab.Buttons"
           android:layout="@layout/preference_category_buttons"
           />
-          
-     <!-- Gestures -->
-     <Preference
-          android:id="@+id/gestures"
-          android:title="@string/category_gestures_title"
-          android:fragment="com.arrow.arrowlab.Gestures"
-          android:layout="@layout/preference_category_gestures"
-          />
 
      <!-- Lockscreen -->
      <Preference
