@@ -19,7 +19,7 @@
     <PreferenceCategory
       android:title="@string/qs_tile_animation_category_title">
 
-        <com.afterlife.support.preferences.SystemSettingIntListPreference
+        <com.arrow.support.preferences.SystemSettingIntListPreference
             android:key="anim_tile_style"
             android:title="@string/qs_tile_animation_style_title"
             android:entries="@array/qs_tile_animation_style_entries"
@@ -27,7 +27,7 @@
             android:summary="%s"
             android:defaultValue="0" />
 
-        <com.afterlife.support.preferences.SystemSettingIntListPreference
+        <com.arrow.support.preferences.SystemSettingIntListPreference
             android:key="anim_tile_duration"
             android:title="@string/qs_tile_animation_duration_title"
             android:entries="@array/qs_tile_animation_duration_entries"
@@ -35,7 +35,7 @@
             android:summary="%s"
             android:defaultValue="2000" />
 
-        <com.afterlife.support.preferences.SystemSettingIntListPreference
+        <com.arrow.support.preferences.SystemSettingIntListPreference
             android:key="anim_tile_interpolator"
             android:title="@string/qs_tile_animation_interpolator_title"
             android:entries="@array/qs_tile_animation_interpolator_entries"
