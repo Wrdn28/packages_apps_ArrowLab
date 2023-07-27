@@ -14,9 +14,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Arrow Customize -->
-    <string name="customize_dashboard_title">Welcome to Arrow Lab!</string>
-    
+    <!-- AfterLife Customize -->
+    <string name="customize_dashboard_title">ArrowOS MOD Laboratory</string>
+    <string name="build_tweaks_summary_title">Customize your own version of ArrowOS</string>
+
     <!-- General -->
     <string name="ok">Okay</string>
     <string name="default_string">Default</string>
@@ -28,7 +29,7 @@
     <string name="attention">Attention</string>
     <string name="reset">Reset</string>
     
-    <string name="category_animations_title">Animations</string>
+    <string name="category_system_title">System</string>
     <string name="category_buttons_title">Buttons</string>
     <string name="category_lockscreen_title">Lockscreen</string>
     <string name="category_gestures_title">Gestures</string>

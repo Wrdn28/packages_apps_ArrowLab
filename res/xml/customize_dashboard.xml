@@ -17,14 +17,6 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/customize_dashboard_title" >
          
-     <!-- Animations -->
-     <Preference
-          android:id="@+id/animations"
-          android:title="@string/category_animations_title"
-          android:fragment="com.arrow.arrowlab.Animations"
-          android:layout="@layout/preference_category_animations"
-          />
-
      <!-- Buttons -->
      <Preference
           android:id="@+id/buttons"
@@ -40,7 +32,7 @@
           android:fragment="com.arrow.arrowlab.Gestures"
           android:layout="@layout/preference_category_gestures"
           />
-y
+
      <!-- Lockscreen -->
      <Preference
           android:id="@+id/lockscreen"
@@ -87,6 +79,14 @@ y
           android:title="@string/category_statusbar_title"
           android:fragment="com.arrow.arrowlab.StatusBar"
           android:layout="@layout/preference_category_statusbar"
+          />
+
+     <!-- System -->
+     <Preference
+          android:id="@+id/system"
+          android:title="@string/category_system_title"
+          android:fragment="com.arrow.arrowlab.System"
+          android:layout="@layout/preference_category_system"
           />
 
 </PreferenceScreen>
