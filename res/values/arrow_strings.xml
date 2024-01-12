@@ -40,6 +40,9 @@
     <!-- Category: Theme-->
     <string name="category_theme_title">Themes</string>
 
+    <!-- Sub category -->
+    <string name="general_category">General</string>
+
     <!-- Android P animation style -->
     <string name="pie_animation_style_title">Android P animation style</string>
     <string name="pie_animation_style_summary">Enable Android P \"Default\" animations</string>
@@ -67,4 +70,8 @@
     <!-- Colored QS notification icons -->
     <string name="qs_colored_icons_title">Colored QS notification icons</string>
     <string name="qs_colored_icons_summary">Show colored app icon instead of monochrome icons</string>
+
+    <!-- Status bar - icon blocklist -->
+    <string name="status_bar_icons_title">Status bar icons</string>
+    <string name="status_bar_icons_summary">Choose which status bar icons can be shown</string>
 </resources> 
