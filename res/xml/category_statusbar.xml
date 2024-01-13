@@ -28,4 +28,6 @@
              android:targetClass="com.android.systemui.tuner.StatusBarTuner" />
      </Preference> 
 
+</PreferenceCategory>
+
 </PreferenceScreen>
