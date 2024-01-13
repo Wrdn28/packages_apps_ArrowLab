@@ -21,5 +21,11 @@
         android:title="@string/qs_colored_icons_title"
         android:summary="@string/qs_colored_icons_summary"
         android:defaultValue="false" />
+ 
+    <com.android.settings.custom.preference.SecureSettingSwitchPreference
+       android:key="quick_settings_vibrate"
+       android:title="@string/quick_settings_vibrate_title"
+       android:summary="@string/quick_settings_vibrate_summary"
+       android:defaultValue="true"/>   
 
 </PreferenceScreen>
