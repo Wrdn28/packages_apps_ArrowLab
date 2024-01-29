@@ -25,7 +25,7 @@
         android:summary="@string/pie_animation_style_summary"
         android:defaultValue="false" />
         
-     <com.android.settings.custom.preferences.SecureSettingSwitchPreference
+     <com.android.settings.custom.preference.SecureSettingSwitchPreference
         android:key="window_ignore_secure"
         android:title="@string/laboratory_ignore_window_secure_title"
         android:summary="@string/laboratory_ignore_window_secure_summary"
