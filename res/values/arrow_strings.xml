@@ -29,7 +29,7 @@
     <string name="attention">Attention</string>
     <string name="reset">Reset</string>
     
-    <string name="category_system_title">System</string>
+    <string name="category_theme_title">Themes</string>
     <string name="category_buttons_title">Buttons</string>
     <string name="category_lockscreen_title">Lockscreen</string>
     <string name="category_gestures_title">Gestures</string>

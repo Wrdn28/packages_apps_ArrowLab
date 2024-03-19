@@ -16,6 +16,30 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/customize_dashboard_title" >
+
+     <!-- Statusbar -->
+     <Preference
+          android:id="@+id/statusbar"
+          android:title="@string/category_statusbar_title"
+          android:fragment="com.arrow.arrowlab.StatusBar"
+          android:layout="@layout/preference_category_statusbar"
+          />
+
+     <!-- Quick Settings -->
+     <Preference
+          android:id="@+id/quick_settings"
+          android:title="@string/category_quicksettings_title"
+          android:fragment="com.arrow.arrowlab.QuickSettings"
+          android:layout="@layout/preference_category_quicksettings"
+          />
+
+     <!-- Buttons -->
+     <Preference
+          android:id="@+id/buttons"
+          android:title="@string/category_buttons_title"
+          android:fragment="com.arrow.arrowlab.Buttons"
+          android:layout="@layout/preference_category_buttons"
+          />
      
      <!-- Battery -->
      <Preference
@@ -25,14 +49,6 @@
           android:layout="@layout/preference_category_battery"
           />
           
-     <!-- Buttons -->
-     <Preference
-          android:id="@+id/buttons"
-          android:title="@string/category_buttons_title"
-          android:fragment="com.arrow.arrowlab.Buttons"
-          android:layout="@layout/preference_category_buttons"
-          />
-
      <!-- Lockscreen -->
      <Preference
           android:id="@+id/lockscreen"
@@ -41,14 +57,6 @@
           android:layout="@layout/preference_category_lockscreen"
           />
      
-     <!-- Misc -->
-     <Preference
-          android:id="@+id/misc"
-          android:title="@string/category_misc_title"
-          android:fragment="com.arrow.arrowlab.Misc"
-          android:layout="@layout/preference_category_misc"
-          />
-          
      <!-- Notifications -->
      <Preference
           android:id="@+id/notifications"
@@ -65,28 +73,20 @@
           android:layout="@layout/preference_category_powermenu"
           />
 
-     <!-- Quick Settings -->
+     <!-- Themes -->
      <Preference
-          android:id="@+id/quick_settings"
-          android:title="@string/category_quicksettings_title"
-          android:fragment="com.arrow.arrowlab.QuickSettings"
-          android:layout="@layout/preference_category_quicksettings"
-          />
-
-     <!-- Statusbar -->
-     <Preference
-          android:id="@+id/statusbar"
-          android:title="@string/category_statusbar_title"
-          android:fragment="com.arrow.arrowlab.StatusBar"
-          android:layout="@layout/preference_category_statusbar"
-          />
-
-     <!-- System -->
-     <Preference
-          android:id="@+id/system"
-          android:title="@string/category_system_title"
+          android:id="@+id/theme"
+          android:title="@string/category_theme_title"
           android:fragment="com.arrow.arrowlab.System"
-          android:layout="@layout/preference_category_system"
+          android:layout="@layout/preference_category_theme"
+          />
+
+     <!-- Misc -->
+     <Preference
+          android:id="@+id/misc"
+          android:title="@string/category_misc_title"
+          android:fragment="com.arrow.arrowlab.Misc"
+          android:layout="@layout/preference_category_misc"
           />
 
 </PreferenceScreen>
