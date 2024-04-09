@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.arrow.arrowlablab.category;
+package com.arrow.arrowlab.category;
 
 import android.content.ContentResolver;
 import android.content.Context;

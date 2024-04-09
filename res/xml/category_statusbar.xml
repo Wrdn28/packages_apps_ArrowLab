@@ -40,19 +40,19 @@
         android:key="statusbar_padding"
         android:title="@string/statusbar_padding">
 
-      <com.android.settings.custom.preference.SystemSettingSeekBarPreference
+      <com.arrow.support.preferences.SystemSettingSeekBarPreference
          android:key="statusbar_top_padding"
          android:max="10"
          android:title="@string/statusbar_top_padding"
          settings:min="-1" />
 
-      <com.android.settings.custom.preference.SystemSettingSeekBarPreference
+      <com.arrow.support.preferences.SystemSettingSeekBarPreference
          android:key="statusbar_left_padding"
          android:title="@string/statusbar_left_padding"
          android:max="100"
          android:min="0" />
 
-      <com.android.settings.custom.preference.SystemSettingSeekBarPreference
+      <com.arrow.support.preferences.SystemSettingSeekBarPreference
          android:key="statusbar_right_padding"
          android:title="@string/statusbar_right_padding"
          android:max="100"
@@ -60,14 +60,14 @@
 
     </PreferenceCategory>
 
-     <com.android.settings.custom.preference.SystemSettingSwitchPreference
+     <com.arrow.support.preferences.SystemSettingSwitchPreference
           android:key="statusbar_colored_icons"
           android:title="@string/statusbar_colored_icons_title"
           android:summary="@string/statusbar_colored_icons_summary"
           android:defaultValue="false" />
 
 
-     <com.android.settings.custom.preference.SystemSettingSwitchPreference
+     <com.arrow.support.preferences.SystemSettingSwitchPreference
          android:key="show_wifi_standard_icon"
          android:title="@string/wifi_standard_icon_title"
          android:summary="@string/wifi_standard_icon_summary"
