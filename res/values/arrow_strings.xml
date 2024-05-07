@@ -117,10 +117,6 @@
     <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
     <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader in power menu</string>
 
-    <!-- WiFi Standard icon -->
-    <string name="wifi_standard_icon_title">WiFi standard</string>
-    <string name="wifi_standard_icon_summary">Display WiFi standard next to WiFi signal</string>
-
     <!-- Unlock FPS for specific games -->
     <string name="use_games_spoof_title">Unlock higher FPS in games</string>
     <string name="use_games_spoof_summary">Spoof your device as a different model for specific games to unlock higher FPS</string>
