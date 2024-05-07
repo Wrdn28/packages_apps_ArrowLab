@@ -20,7 +20,7 @@
      <Preference
           android:id="@+id/statusbar"
           android:title="@string/category_statusbar_title"
-          android:fragment="com.arrow.arrowlab.category.StatusBar"
+          android:fragment="com.arrow.arrowlab.category.Statusbar"
           android:layout="@layout/preference_category_statusbar"
           />
 
