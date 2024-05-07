@@ -48,31 +48,4 @@
        android:summary="@string/use_games_spoof_summary"
        android:defaultValue="false" />
 
-    <com.arrow.support.preferences.SystemSettingSwitchPreference
-        android:title="Custom pill handle"
-        android:key="declan_gesture_navbar_switch"
-        android:summary="Customize gesture navigation handle"
-        android:defaultValue="false" />
-    <com.arrow.support.preferences.SystemSettingSeekBarPreference
-        android:max="200"
-        android:title="Pill length"
-        android:key="declan_gesture_navbar_lenght"
-        android:dependency="declan_gesture_navbar_switch"
-        android:defaultValue="72"
-        app:min="0" />
-    <com.arrow.support.preferences.SystemSettingSeekBarPreference
-        android:max="30"
-        android:title="Pill radius"
-        android:key="declan_gesture_navbar_radius"
-        android:dependency="declan_gesture_navbar_switch"
-        android:defaultValue="1"
-        app:min="0" />
-    <com.arrow.support.preferences.SystemSettingSeekBarPreference
-        android:max="30"
-        android:title="Pill bottom"
-        android:key="declan_gesture_navbar_bottom"
-        android:dependency="declan_gesture_navbar_switch"
-        android:defaultValue="6"
-        app:min="0" />
-
 </PreferenceScreen>
