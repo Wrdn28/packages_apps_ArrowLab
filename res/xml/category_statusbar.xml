@@ -93,6 +93,4 @@
             android:defaultValue="0" />
     </PreferenceCategory>
 
-</PreferenceCategory>
-
 </PreferenceScreen>
