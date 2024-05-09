@@ -84,12 +84,6 @@
     <string name="statusbar_colored_icons_title">Colored icons</string>
     <string name="statusbar_colored_icons_summary">Use proper app icons for notification icons in status bar</string>
 
-    <!-- Status bar padding -->
-    <string name="statusbar_padding">Status bar padding</string>
-    <string name="statusbar_top_padding">Top padding</string>
-    <string name="statusbar_left_padding">Left padding</string>
-    <string name="statusbar_right_padding">Right padding</string>
-    
     <!-- Network traffic -->
     <string name="network_traffic_state_title">Network traffic indicator</string>
     <string name="network_traffic_state_summary">Enable or disable network speed indicator in status bar</string>
