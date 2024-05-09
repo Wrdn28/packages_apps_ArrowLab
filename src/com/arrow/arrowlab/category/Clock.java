@@ -42,10 +42,10 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.arrow.support.preference.SecureSettingSwitchPreference;
-import com.arrow.support.preference.SystemSettingListPreference;
-import com.arrow.support.preference.SystemSettingSeekBarPreference;
-import com.arrow.support.preference.SystemSettingSwitchPreference;
+import com.arrow.support.preferences.SecureSettingSwitchPreference;
+import com.arrow.support.preferences.SystemSettingListPreference;
+import com.arrow.support.preferences.SystemSettingSeekBarPreference;
+import com.arrow.support.preferences.SystemSettingSwitchPreference;
 
 import java.util.Date;
 
