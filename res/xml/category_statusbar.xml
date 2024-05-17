@@ -60,7 +60,7 @@
             android:summary="@string/status_bar_clock_summary"
             android:fragment="com.arrow.arrowlab.category.Clock" />
 
-	<com.arrow.support.preferences.SystemSettingSwitchPreference
+	<com.arrow.support.preferences.SystemSettingListPreference
 	    android:key="statusbar_clock_chip" 
             android:title="@string/statusbar_clock_chip_title" 
             android:entries="@array/statusbar_clock_chip_entries" 
