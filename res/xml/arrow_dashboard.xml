@@ -52,7 +52,7 @@
      <Preference
           android:id="@+id/button"
           android:title="@string/category_button_title"
-          android:fragment="com.arrow.arrowlab.category.Button"
+          android:fragment="com.arrow.arrowlab.category.ButtonSettings"
           android:layout="@layout/preference_category_button"
           />
 
