@@ -48,12 +48,4 @@
           android:layout="@layout/preference_category_theme"
           />
 
-     <!-- Button -->
-     <Preference
-          android:id="@+id/button"
-          android:title="@string/category_button_title"
-          android:fragment="com.arrow.arrowlab.category.Button"
-          android:layout="@layout/preference_category_button"
-          />
-
 </PreferenceScreen>
